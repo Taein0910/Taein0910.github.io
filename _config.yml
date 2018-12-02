@@ -6,11 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Dude
-email: your-email@domain.com
-description:  Write an awesome description for your new site here. You can edit this
-              line in _config.yml. It will appear in your document head meta (for
-              Google search results) and in your feed.xml site description.
+title: 윤태인의 기술블로그
+email: taein2370@naver.Compatible
+description:  저는 2005년 9월 10일에 태어났고, 미래에 소프트웨어 개발자가 되고 싶습니다.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://taein0910.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
