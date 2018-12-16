@@ -23,6 +23,6 @@ categories: jekyll update
 * 도미노피자
 * 피자헛
 * 피자알볼로
-######등이 있다.
+####등이 있다.
 
-출처 : 위키백과(https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9E%90#%EC%9A%94%EB%A6%AC_%EA%B3%BC%EC%A0%95r)
+Link: https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9E%90#%EC%9A%94%EB%A6%AC_%EA%B3%BC%EC%A0%95 "위키백과"
