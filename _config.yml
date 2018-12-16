@@ -11,8 +11,8 @@ email: taein2370@naver.com
 description:  저는 2005년 9월 10일에 태어났고, 미래에 소프트웨어 개발자가 되고 싶습니다.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://taein0910.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
 markdown: kramdown
