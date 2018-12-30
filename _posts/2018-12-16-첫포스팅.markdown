@@ -4,7 +4,7 @@ title:  "JAVA #1"
 date:   2018-12-23 10:08:45 +0200
 categories: JAVA
 ---
-#### 변수 선언
+#정리
 
 ~~~
 package lecture20181223;

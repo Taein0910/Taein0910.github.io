@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "for문 실습
+date:   2018-12-30 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20181230;
+
+public class Lecture07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * 조건식 수행 결과가 false라면 for문을 빠져나갑니다.
+		 * for(초기화식; 조건식; 증감식)
+		 * {
+		 *  //조건식 수행 결과가 true라면 실행문을 수행합니다.
+		 *  실행문1;
+		 *  실행문2;
+		 *  }
+		 */
+
+		/*
+		for(int i = 1; i<=10; i++)
+		{
+			//if문을 추가해 i가 3의 배수일 때만 실행문을 수행합니다.
+			if(i % 3 == 0)
+			   System.out.println(i);
+		}
+		/*
+		 *
+		 */
+		//for문을 사용해서 1부터 10까지 출력하시오.
+		/*
+		 for(int a = 1; a<=10; a++) {
+			System.out.println(a);
+		}
+		 */
+
+		//for문을 사용햐여 1부터 10까지 중 짝수를 출력
+		for(int a = 1; a<=10; a++) {
+			if(a%2 ==0)
+			System.out.println(a);
+		}
+	}
+
+}
+
+~~~
