@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "JAVA 변수 실습"
+date:   2018-12-30 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20181230;
+
+public class Lecture02 {
+
+	public static void main(String[] args) {
+		// 정수를 담는 변수 count 선언
+		int count = 1;
+		// 실수를 담는 변수, average 선언
+		double average = 2;
+		// 두 수를 출력하시오.
+        System.out.println(count);
+        System.out.println(average);
+	}
+
+}
+
+~~~
