@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "if문 실습"
+date:   2018-12-30 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20181230;
+
+public class Lecture06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int value = 3;
+		if( value % 3 == 0)
+		{
+			System.out.println("value는 3의 배수입니다.");
+		}
+
+
+	}
+
+}
+
+~~~
