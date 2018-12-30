@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "구구단"
+date:   2018-12-30 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20181230;
+
+public class Lecture08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i = 2; i<=9; i++)
+		{
+			for(int j = 1; j<=9; j++)
+			{
+				int result = i*j;
+
+				//System.out.print(i,"*" j, "=", result);
+				System.out.print(i);
+				System.out.print("x");
+				System.out.print(j);
+				System.out.print("=");
+				System.out.println(result);
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+~~~
