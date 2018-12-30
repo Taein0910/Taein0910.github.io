@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "JAVA 상수 실습"
+date:   2018-12-30 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20181230;
+
+public class Lecture03 {
+
+	public static void main(String[] args) {
+		/*
+		 * 상수란 변하지 않는 값 의미
+		 * 상수는 final 키워드 사용해 선언.
+		 * 상수는 대문자로만.
+		 */
+
+		final int j = 10;
+		//3에는 값을 단 한 번 담을 수 있음.
+		//이제 j 값을 변경할 수 없습니다.
+		System.out.println(j);
+
+		j=11; //변경 안됨
+	}
+
+}
+~~~
