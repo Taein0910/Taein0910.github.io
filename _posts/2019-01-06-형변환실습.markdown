@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "형변환 실습"
+date:   2019-01-06 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20181230;
+
+public class Lecture06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int value = 3;
+		if( value % 3 == 0)
+		{
+			System.out.println("value는 3의 배수입니다.");
+		}
+
+
+	}
+
+}
+
+~~~
