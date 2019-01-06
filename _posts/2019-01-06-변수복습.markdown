@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "변수복습"
+date:   2019-01-06 10:08:45 +0200
+categories: JAVA
+---
+~~~
+package lecture20190106;
+
+public class Lecture03 {
+
+	public static void main(String[] args) {
+		int number; //정수형 변수 number 선언
+		number = 20; //number값에 20 넣기
+
+		System.out.println(number); //number값 출력
+		System.out.println(number+10); //number값에 10 더한 값 출력
+
+		double a = 4.14; // 실수형 변수 a 선언하고 4.14 값 넣기
+		System.out.println(a); // a 값 출력
+		System.out.println((int)a); // 실수형 a를 정수형으로 형변환해서 출력
+
+		int num1, num2; //정수형 변수 num1과 num2 선언
+		num1 = 4; //num1에 4넣기
+		num2 = 14; //num2에 14 넣기
+
+		System.out.println(num1+num2); //num1값과 num2값을 더한 값 출력
+		System.out.println(num1*num2); //num1값과 num2값을 곱한 값 출력
+	}
+
+
+}
+~~~
