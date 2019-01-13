@@ -6,23 +6,23 @@ categories: JAVA
 ---
 #1. 변수란?
 
-####1. 변하는 수
-####2. 하나의 값을 저장할 수 있는 공간
+1. 변하는 수
+2. 하나의 값을 저장할 수 있는 공간
 
 #2. 변수의 타입(data type)
-####문자 - char
-##
-####숫자
-####정수 : byte, short, int, long
-####실수 : float, double
-####논리 : boolean
+문자 - char
+***
+숫자
+정수 : byte, short, int, long
+실수 : float, double
+논리 : boolean
 
 #3. 변수의 타입(data type)
-####기본형 : byte, short, int, long, float, double, boolean
-####참조형 : 기본형을 제외한 나머지(String, System ...), 객체의 주소를 저장
+기본형 : byte, short, int, long, float, double, boolean
+참조형 : 기본형을 제외한 나머지(String, System ...), 객체의 주소를 저장
 
 #4. 변수의 선언방법
-####타입 변수명;
+타입 변수명;
 ~~~
 int score;
 score = 100;
@@ -40,8 +40,8 @@ int score = 100;
 * 상수의 이름은 대문자로 한다. 단어는 '__'로 구분한다_ (PI, MAX_NUMBER)
 
 #7. 변수, 상수
-####변수(variable) - 하나의 값을 저장하기 위한 공간
-####상수(constant) - 한 번만 값을 저장할 수 있는 공간
+변수(variable) - 하나의 값을 저장하기 위한 공간
+상수(constant) - 한 번만 값을 저장할 수 있는 공간
 ex)
 ~~~
 int score = 100; //정수형 변수 score를 선언
