@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "값 입력 받기 (SCANNER)"
+date:   2019-02-10 10:08:45 +0200
+categories: JAVA
+---
+=============
+코드 간단하게 수정버전
+~~~
+  	double bigPrice = 5000;
+  	double CheezePrice = 3000;
+		double nergetPrice = 2000;
+		int menu;
+		double result = 0;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("메뉴를 입력해주세요 : ");
+		menu = scan.nextInt();
+
+		if (menu == 1) {
+			result = bigPrice;
+		}
+		else if (menu == 2) {
+			result = CheezePrice;
+		}
+		else if (menu == 3) {
+			result = nergetPrice;
+		}
+		result = (result + 1000)*1.1;
+		System.out.println(Math.round(result)+"원");
+	}
+~~~
+수정 전
+~~~
+double bigPrice = 5000;
+double CheezePrice = 3000;
+double nergetPrice = 2000;
+int menu;
+Scanner scan = new Scanner(System.in);
+System.out.println("메뉴를 입력해주세요 : ");
+menu = scan.nextInt();
+
+if (menu == 1) {
+  bigPrice = (bigPrice + 1000)*1.1;
+  System.out.println(Math.round(bigPrice)+"원");
+}
+else if (menu == 2) {
+  CheezePrice = (CheezePrice + 1000)*1.1;
+  System.out.println(Math.round(CheezePrice)+"원");
+}
+else if (menu == 3) {
+  nergetPrice = (nergetPrice + 1000)*1.1;
+  System.out.println(Math.round(nergetPrice)+"원");
+}
+~~~
+
+#학점 계산
+~~~
+		int menu;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("학점을 입력해주세요 : ");
+		menu = scan.nextInt();
+
+		if (menu == 100) {
+			System.out.println("만점");
+		}
+		else if (menu >=90) {
+			System.out.println("사람");
+		}
+		else if (menu >=80) {
+			System.out.println("공부 안함");
+			System.out.println(90 - menu);
+		}
+		else if (menu >=70) {
+			System.out.println("자퇴추천");
+			System.out.println(90 - menu);
+		}
+		else if (menu <=70) {
+			System.out.println("공장 ㄱㄱ");
+			System.out.println(90 - menu);
+		}
+~~~
